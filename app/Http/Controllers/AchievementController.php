@@ -9,11 +9,7 @@ use Illuminate\Http\Request;
 
 class AchievementController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+
     public function index()
     {
         $achievement = Achievement::orderBy('id', 'DESC')->paginate(3);
