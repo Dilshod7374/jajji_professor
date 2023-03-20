@@ -9,7 +9,7 @@ use App\Models\achievement;
 
 class AchievementControlller extends Controller
 {
-/* echo salom */
+/* echo hayr */
 
     public function index()
     {
