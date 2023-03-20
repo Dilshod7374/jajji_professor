@@ -1,5 +1,5 @@
 <?php
-/* o'rganish uchun */
+/* o'rganish uchunmi */
 namespace App\Http\Controllers;
 
 use App\Http\Requests\AchievementStoreRequest;
