@@ -9,6 +9,8 @@ use App\Models\achievement;
 
 class AchievementControlller extends Controller
 {
+/* echo salom */
+
     public function index()
     {
         $achievements = Achievement::all();
